@@ -7,3 +7,12 @@ Breakpoint 1, main () at c:\Users\Shreya\github-classroom\FPC-advanced\fpc-advan
 5	   printf("Shreya Srinath\n");
 Continuing.
 [Inferior 1 (process 7816) exited normally]
+Breakpoint 1 at 0x40146e: file c:\Users\Shreya\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Shreyasrinath21\set01\problem01.c, line 5.
+Starting program: c:\Users\Shreya\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Shreyasrinath21\set01\problem01.exe 
+[New Thread 9380.0x3ab8]
+[New Thread 9380.0xaa0]
+
+Breakpoint 1, main () at c:\Users\Shreya\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Shreyasrinath21\set01\problem01.c:5
+5	   printf("Shreya Srinath\n");
+Continuing.
+[Inferior 1 (process 9380) exited normally]
