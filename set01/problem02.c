@@ -8,5 +8,4 @@ int main()
     sum=a+b;
     printf("the sum is %d\n", sum);
     return  0;
-    
 }
