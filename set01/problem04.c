@@ -14,7 +14,7 @@ int main()
 void input(int *a, int *b)
 {
     printf("Enter the values of a nd b:\n");
-    scanf("%d %d",&a,&b);
+    scanf("%d %d",a,b);
 }
 void add(int a, int b, int *sum)
 {
@@ -22,5 +22,5 @@ void add(int a, int b, int *sum)
 }
 void output(int a, int b, int sum)
 {
-    printf("The sum of %d and %d is %d\n",&a,&b,&sum);
+    printf("The sum of %d and %d is %d\n",a,b,sum);
 }

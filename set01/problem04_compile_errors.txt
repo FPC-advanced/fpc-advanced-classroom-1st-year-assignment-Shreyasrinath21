@@ -11,3 +11,5 @@ c:\Users\Shreya\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-as
 c:\Users\Shreya\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Shreyasrinath21\set01\problem04.c:3:6: note: expected 'int *' but argument is of type 'int'
  void input(int *a, int *b);
       ^~~~~
+c:/mingw/bin/../lib/gcc/mingw32/6.3.0/../../../../mingw32/bin/ld.exe: cannot open output file c:\Users\Shreya\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Shreyasrinath21\set01\problem04.exe: Permission denied
+collect2.exe: error: ld returned 1 exit status
