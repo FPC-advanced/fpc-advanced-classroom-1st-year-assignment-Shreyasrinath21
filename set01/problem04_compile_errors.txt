@@ -1,0 +1,13 @@
+c:\Users\Shreya\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Shreyasrinath21\set01\problem04.c: In function 'main':
+c:\Users\Shreya\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Shreyasrinath21\set01\problem04.c:9:10: warning: passing argument 1 of 'input' makes pointer from integer without a cast [-Wint-conversion]
+    input(a,b);
+          ^
+c:\Users\Shreya\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Shreyasrinath21\set01\problem04.c:3:6: note: expected 'int *' but argument is of type 'int'
+ void input(int *a, int *b);
+      ^~~~~
+c:\Users\Shreya\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Shreyasrinath21\set01\problem04.c:9:12: warning: passing argument 2 of 'input' makes pointer from integer without a cast [-Wint-conversion]
+    input(a,b);
+            ^
+c:\Users\Shreya\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Shreyasrinath21\set01\problem04.c:3:6: note: expected 'int *' but argument is of type 'int'
+ void input(int *a, int *b);
+      ^~~~~
