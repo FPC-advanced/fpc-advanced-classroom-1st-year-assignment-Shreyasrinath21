@@ -16,9 +16,9 @@ int main()
 void input_two_strings(char *string1, char *string2)
 {
     printf("Enter the first string\n");
-    scanf("%s",string1);
+    scanf("%s",&string1);
     printf("Enter the second string\n");
-    scanf("%s",string2);
+    scanf("%s",&string2);
 }
 int stringcompare(char *string1, char *string2)
 {
@@ -27,25 +27,16 @@ int stringcompare(char *string1, char *string2)
     {
         if(string1[i]>string2[i])
         {
-            result=string1[i];
+            result=string1;
         }
         else
         {
-            result=string2[i];
+            result=string2;
         }
     }
     return result;
 }
 void output(char *string1, char *string2, int result)
 {
-    int i;
-    if(string1[i]==result)
-    {
-        printf("%s is larger than %s and the result is %s\n",string1,string2,result);
-    }
-    else
-    if(string2[i]==result)
-    {
-            printf("%s is larger than %s and the result is %s\n",string2,string1,result);
-    }
+    printf("This %s string is latger than %s string and the result is %d\n",string1,string2,result);
 }
