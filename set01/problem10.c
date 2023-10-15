@@ -5,10 +5,10 @@ int stringcompare(char *string1, char *string2);
 void output(char *string1, char *string2, int result);
 int main()
 {
-    char *string1,*string2,result;
-    input_two_strings(string1,string2);
-    stringcompare(string1,string2);
-    output(string1,string2,result);
+    char string1,string2,result;
+    input_two_strings(&string1,&string2);
+    result=stringcompare(&string1,&string2);
+    output(&string1,&string2,result);
     return 0;
 }
 void input_two_strings(char *string1, char *string2)
@@ -42,6 +42,7 @@ void output(char *string1, char *string2, int result)
         printf("%s is larger than %s and the result is %s\n",string1,string2,result);
     }
     else
+    if(string2[i]==result)
     {
             printf("%s is larger than %s and the result is %s\n",string2,string1,result);
     }
