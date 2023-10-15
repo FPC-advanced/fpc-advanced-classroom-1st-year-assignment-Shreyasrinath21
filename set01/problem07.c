@@ -6,7 +6,7 @@ void output(int n, int sum);
 int main()
 {
     int n,sum=0;
-    n=intput_n();
+    n=input_n();
     sum=sum_n_nos(n,sum);
     output(n,sum);
     return 0;
