@@ -12,3 +12,10 @@ c:\Users\Shreya\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-as
 C:\Users\Shreya\AppData\Local\Temp\cc66eoit.o: In function `main':
 c:/Users/Shreya/github-classroom/FPC-advanced/fpc-advanced-classroom-1st-year-assignment-Shreyasrinath21/set01/problem06.c:11: undefined reference to `ouput'
 collect2.exe: error: ld returned 1 exit status
+c:\Users\Shreya\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Shreyasrinath21\set01\problem06.c: In function 'main':
+c:\Users\Shreya\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Shreyasrinath21\set01\problem06.c:11:5: warning: implicit declaration of function 'ouput' [-Wimplicit-function-declaration]
+     ouput(a,b,c,largest);
+     ^~~~~
+C:\Users\Shreya\AppData\Local\Temp\cc7LcXzp.o: In function `main':
+c:/Users/Shreya/github-classroom/FPC-advanced/fpc-advanced-classroom-1st-year-assignment-Shreyasrinath21/set01/problem06.c:11: undefined reference to `ouput'
+collect2.exe: error: ld returned 1 exit status
