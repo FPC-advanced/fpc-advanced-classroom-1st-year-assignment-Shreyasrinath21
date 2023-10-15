@@ -1,0 +1,7 @@
+c:\Users\Shreya\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Shreyasrinath21\set01\problem07.c: In function 'main':
+c:\Users\Shreya\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Shreyasrinath21\set01\problem07.c:9:7: warning: implicit declaration of function 'intput_n' [-Wimplicit-function-declaration]
+     n=intput_n();
+       ^~~~~~~~
+C:\Users\Shreya\AppData\Local\Temp\ccsx5GmA.o: In function `main':
+c:/Users/Shreya/github-classroom/FPC-advanced/fpc-advanced-classroom-1st-year-assignment-Shreyasrinath21/set01/problem07.c:9: undefined reference to `intput_n'
+collect2.exe: error: ld returned 1 exit status
