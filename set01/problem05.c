@@ -9,7 +9,7 @@ int main()
   a=input();
   b=input();
   c=input();
-  compare(a,b,c,largest);
+  largest=compare(a,b,c,largest);
   output(a,b,c,largest);
   return 0;
 }
@@ -41,5 +41,5 @@ int compare(int a, int b, int c,int largest)
 }
 void output(int a, int b, int c, int largest)
 {
-    printf("The largest number between %d %d and %d is %d\n",a,b,c,largest);
+    printf("The largest number between %d,%d and %d is %d\n",a,b,c,largest);
 }
