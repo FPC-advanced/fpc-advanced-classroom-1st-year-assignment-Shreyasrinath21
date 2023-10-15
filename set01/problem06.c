@@ -8,7 +8,7 @@ int main()
     int a,b,c,largest;
     input(&a,&b,&c);
     compare(a,b,c,&largest);
-    ouput(a,b,c,largest);
+    output(a,b,c,largest);
     return 0;
 }
 int input(int *a, int *b, int *c)
