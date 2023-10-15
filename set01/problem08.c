@@ -11,7 +11,7 @@ int main()
     int a[n];
     input_array(n,a);
     sum=sum_n_array(n,a,sum);
-    output(n,a[n],sum);
+    output(n,a,sum);
     return 0;
 }
 int input_array_size()
@@ -41,5 +41,5 @@ int sum_n_array(int n, int a[n],int sum)
 }
 void output(int n, int a[n],int sum)
 {
-    printf("The sum of the array of size %d of the array %d is %d\n",n,a[n],sum);
+    printf("The sum of the array of size %d of the array %d is %d\n",n,a,sum);
 }
