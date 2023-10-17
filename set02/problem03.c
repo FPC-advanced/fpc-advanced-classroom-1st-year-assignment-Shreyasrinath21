@@ -25,6 +25,10 @@ int is_composite(int n)
             result=1;
             return result;
         }
+        else{
+            result=0;
+            return 0;
+        }
     }
     return result;
 }
