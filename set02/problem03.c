@@ -29,7 +29,7 @@ int is_composite(int n)
         if(n % i != 0)
         {
             result=0;
-            return 0;
+            return result;
         }
     }
     return result;
