@@ -30,7 +30,7 @@ void output(int a, int b, int c, int isscalene) {
     printf("Side 2: %d\n", b);
     printf("Side 3: %d\n", c);
 
-    if (isscalene=1) {
+    if (isscalene==1) {
         printf("The triangle is scalene.\n");
     } else {
         printf("The triangle is not scalene.\n");
