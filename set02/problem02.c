@@ -14,7 +14,7 @@ int input_side() {
 
 int check_scalene(int a, int b, int c) {
     int isscalene;
-    if (a != b && a != c && b != c) {
+    if (a != b && a != c && b != c && c!=a && b!= a && c != b) {
         isscalene=1;
         return isscalene;
     } else {
@@ -38,17 +38,11 @@ void output(int a, int b, int c, int isscalene) {
 }
 
 int main() {
-    int side1,side2,side3,a,b,c;
-
-    
-    side1 = input_side();
-    side2 = input_side();
-    side3 = input_side();
-
-    
-    int isscalene = check_scalene(a,b,c);
-
-    
+    int a,b,c,isscalene;
+    a = input_side();
+    b = input_side();
+    c = input_side();
+    isscalene = check_scalene(a,b,c);
     output(a,b,c,isscalene);
     return 0;
 }
