@@ -28,7 +28,7 @@ int is_composite(int n)
         else
         if(n % i != 0)
         {
-            result=0;
+            result=-1;
             return result;
         }
     }
