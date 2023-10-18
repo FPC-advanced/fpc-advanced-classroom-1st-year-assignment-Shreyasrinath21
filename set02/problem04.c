@@ -30,7 +30,7 @@ void input_array(int n, int a[n]) {
 }
 
 int is_composite(int n) {
-     int i,result;
+     int i,result,a[n];
     if(n<=1)
     {
         result=0;
@@ -38,13 +38,13 @@ int is_composite(int n) {
     }
     for(i=2;i<n;i++)
     {
-        if(n % i==0)
+        if(n % a[i]==0)
         { 
             result=1;
             return result;
         }
         else
-        if(n % i != 0)
+        if(n % a[i] != 0)
         {
             result=-1;
             return result;
