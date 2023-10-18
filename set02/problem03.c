@@ -36,7 +36,7 @@ int is_composite(int n)
 }
 void output(int n, int result)
 {
-    if(result=1)
+    if(result==1)
     {
         printf("%d is composite and result is %d\n",n,result);
     }
