@@ -54,7 +54,7 @@ int is_composite(int n) {
 }
 
 int sum_composite_numbers(int n, int a[n]) {
-    int i,sum = 0,result;
+    int i,sum,result;
    for(i=0;i<n;i++) 
     {
         if(result==1) {
