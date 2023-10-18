@@ -15,3 +15,16 @@ int input_array_size()
     scanf("%d",&n);
     return n;
 }
+void input_array(int n, int a[n])
+{
+   int i;
+    printf("Enter the vlues of the array:\n");
+    for(i=0;i<n;i++)
+    {
+        scanf("%d",&a[i]);
+    }
+}
+int sum_composite_numbers(int n, int a[n])
+{
+    
+}
