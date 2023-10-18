@@ -29,12 +29,12 @@ void input_array(int n, int a[n]) {
     }
 }
 
-int is_composite(int n) {
-     if (n <= 1) {
+int is_composite(int num) {
+     if (num <= 1) {
         return 0; 
     }
-    for (int i = 2; i < n; i++) {
-        if (n % i == 0) {
+    for (int i = 2; i < num; i++) {
+        if (num % i == 0) {
             return 1; 
         }
     }
