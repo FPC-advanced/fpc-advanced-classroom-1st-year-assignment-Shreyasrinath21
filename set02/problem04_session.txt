@@ -17,3 +17,55 @@ PSRemotingProtocolVersion: 2.3
 SerializationVersion: 1.1.0.1
 **********************
 Transcript started, output file is c:\Users\Shreya\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Shreyasrinath21\set02\problem04_session.txt
+PS C:\Users\Shreya\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Shreyasrinath21> git add .
+
+PS C:\Users\Shreya\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Shreyasrinath21> git commit -m "committed 10/18/2023, 5:44:53 PM"
+[main 4ad7fdd] committed 10/18/2023, 5:44:53 PM
+ 2 files changed, 38 insertions(+), 4 deletions(-)
+ create mode 100644 set02/problem04_session.txt
+PS C:\Users\Shreya\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Shreyasrinath21> git push
+Enumerating objects: 8, done.
+Counting objects: 100% (8/8), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (5/5), 1.19 KiB | 1.19 MiB/s, done.
+Total 5 (delta 3), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (3/3), completed with 3 local objects.
+To https://github.com/FPC-advanced/fpc-advanced-classroom-1st-year-assignment-Sh
+reyasrinath21.git
+   8a7dbbf..4ad7fdd  main -> main
+PS C:\Users\Shreya\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Shreyasrinath21> git add .
+
+PS C:\Users\Shreya\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Shreyasrinath21> git commit -m "committed 10/18/2023, 5:45:01 PM"
+
+PS C:\Users\Shreya\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Shreyasrinath21> git push
+
+PS C:\Users\Shreya\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Shreyasrinath21> gcc -g "c:\Users\Shreya\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Shreyasrinath21\set02\problem04.c" -o "c:\Users\Shreya\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Shreyasrinath21\set02\problem04.exe" 2>&1
+gcc : c:\Users\Shreya\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Shreyasrinath21\set02\problem04.c: In function
+'sum_composite_numbers':
+At line:1 char:1
++ gcc -g "c:\Users\Shreya\github-classroom\FPC-advanced\fpc-advanced-cl ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (c:\Users\Shreya...osite_numbers'::String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+
+c:\Users\Shreya\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Shreyasrinath21\set02\problem04.c:37:13: warning: implicit declaration of
+function 'is_composite' [-Wimplicit-function-declaration]
+         if (is_composite(a[i])) {
+             ^~~~~~~~~~~~
+C:\Users\Shreya\AppData\Local\Temp\ccHoSHHb.o: In function `sum_composite_numbers':
+c:/Users/Shreya/github-classroom/FPC-advanced/fpc-advanced-classroom-1st-year-assignment-Shreyasrinath21/set02/problem04.c:37: undefined reference to `is_composite'
+collect2.exe: error: ld returned 1 exit status
+
+PS C:\Users\Shreya\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Shreyasrinath21> cd set02
+PS C:\Users\Shreya\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Shreyasrinath21\set02> gcc problem04.c
+
+PS C:\Users\Shreya\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Shreyasrinath21\set02> .\a.exe
+
+PS C:\Users\Shreya\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Shreyasrinath21\set02> 4
+4
+PS C:\Users\Shreya\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Shreyasrinath21\set02> Stop-Transcript
+**********************
+Windows PowerShell transcript end
+End time: 20231018204840
+**********************
