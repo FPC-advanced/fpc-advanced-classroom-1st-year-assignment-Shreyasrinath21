@@ -42,7 +42,7 @@ int is_composite(int num) {
 }
 
 int sum_composite_numbers(int n, int a[n]) {
-    int i,sum,result;
+    int i,sum=0,result;
    for(i=0;i<n;i++) 
     {
         if(is_composite (a[i])) {
