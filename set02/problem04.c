@@ -30,27 +30,15 @@ void input_array(int n, int a[n]) {
 }
 
 int is_composite(int n) {
-     int i,result,a[n];
-    if(n<=1)
-    {
-        result=0;
-        return result;
+     if (n <= 1) {
+        return 0; 
     }
-    for(i=2;i<n;i++)
-    {
-        if(n % i==0)
-        { 
-            result=1;
-            return result;
-        }
-        else
-        if(n % i != 0)
-        {
-            result=-1;
-            return result;
+    for (int i = 2; i < n; i++) {
+        if (n % i == 0) {
+            return 1; 
         }
     }
-    return result;
+    return 0;
 }
 
 int sum_composite_numbers(int n, int a[n]) {
