@@ -38,13 +38,13 @@ int is_composite(int n) {
     }
     for(i=2;i<n;i++)
     {
-        if(n % a[i]==0)
+        if(n % i==0)
         { 
             result=1;
             return result;
         }
         else
-        if(n % a[i] != 0)
+        if(n % i != 0)
         {
             result=-1;
             return result;
