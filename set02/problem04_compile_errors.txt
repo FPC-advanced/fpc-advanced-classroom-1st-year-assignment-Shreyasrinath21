@@ -1,0 +1,7 @@
+c:\Users\Shreya\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Shreyasrinath21\set02\problem04.c: In function 'sum_composite_numbers':
+c:\Users\Shreya\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Shreyasrinath21\set02\problem04.c:37:13: warning: implicit declaration of function 'is_composite' [-Wimplicit-function-declaration]
+         if (is_composite(a[i])) {
+             ^~~~~~~~~~~~
+C:\Users\Shreya\AppData\Local\Temp\ccaeJRdJ.o: In function `sum_composite_numbers':
+c:/Users/Shreya/github-classroom/FPC-advanced/fpc-advanced-classroom-1st-year-assignment-Shreyasrinath21/set02/problem04.c:37: undefined reference to `is_composite'
+collect2.exe: error: ld returned 1 exit status
