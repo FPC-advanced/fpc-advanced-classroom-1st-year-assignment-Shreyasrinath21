@@ -21,6 +21,11 @@ int input()
 int find_gcd(int a, int b)
 {
     int result;
+     if (b == 0)
+     {
+        return a;
+        result=gcd(b, a % b);
+     }
     if(a<0)
     {
         a=-a;
@@ -30,7 +35,7 @@ int find_gcd(int a, int b)
     {
         b=-b;
     }
-    result=gcd(a,b);
+    result = gcd(a,b);
     return result;
 }
 void output(int a, int b, int result)
