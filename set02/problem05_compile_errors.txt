@@ -1,0 +1,7 @@
+c:\Users\Shreya\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Shreyasrinath21\set02\problem05.c: In function 'find_gcd':
+c:\Users\Shreya\github-classroom\FPC-advanced\fpc-advanced-classroom-1st-year-assignment-Shreyasrinath21\set02\problem05.c:27:16: warning: implicit declaration of function 'gcd' [-Wimplicit-function-declaration]
+         return gcd(b, a % b);
+                ^~~
+C:\Users\Shreya\AppData\Local\Temp\ccv43fPc.o: In function `find_gcd':
+c:/Users/Shreya/github-classroom/FPC-advanced/fpc-advanced-classroom-1st-year-assignment-Shreyasrinath21/set02/problem05.c:38: undefined reference to `gcd'
+collect2.exe: error: ld returned 1 exit status
